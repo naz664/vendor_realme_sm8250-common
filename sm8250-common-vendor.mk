@@ -1217,6 +1217,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/realme/sm8250-common/proprietary/vendor/bin/embmsslServer:$(TARGET_COPY_OUT_VENDOR)/bin/embmsslServer \
     vendor/realme/sm8250-common/proprietary/vendor/bin/feature_enabler_client:$(TARGET_COPY_OUT_VENDOR)/bin/feature_enabler_client \
+    vendor/realme/sm8250-common/proprietary/vendor/bin/hw/vendor.qti.hardware.limits@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.limits@1.0-service \
     vendor/realme/sm8250-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/realme/sm8250-common/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/realme/sm8250-common/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-qti \
@@ -1277,6 +1278,22 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/realme/sm8250-common/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/realme/sm8250-common/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.benchmark.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.benchmark.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.high.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.high.level1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.high.level1.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.high.level2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.high.level2.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.high.level3.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.high.level3.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.high.level4.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.high.level4.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.low.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.low.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.low.level1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.low.level1.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.low.level2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.low.level2.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.mid.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.mid.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.mid.level1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.mid.level1.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.mid.level2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.mid.level2.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.mid.level3.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.mid.level3.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.mid.level4.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.mid.level4.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.sgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.sgame.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/thermal.super.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.super.conf \
     vendor/realme/sm8250-common/proprietary/vendor/etc/ArmHDCP_QTI_Android.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/ArmHDCP_QTI_Android.cfg \
     vendor/realme/sm8250-common/proprietary/vendor/etc/OPlus_QC_LTM_Commercial_SM8250_2020_02_07.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/OPlus_QC_LTM_Commercial_SM8250_2020_02_07.pfm \
     vendor/realme/sm8250-common/proprietary/vendor/etc/Oppo_QC_LTM_Commercial_2020_01_03.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/Oppo_QC_LTM_Commercial_2020_01_03.pfm \
@@ -2151,6 +2168,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.1.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.limits@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.limits@1.0.so \
     vendor/realme/sm8250-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/realme/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/realme/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
@@ -2204,6 +2222,7 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_oplus_osiesr \
     vendor.qti.gnss@4.0-service \
+    vendor.qti.hardware.limits@1.0-service \
     manifest_android.hardware.drm@1.3-service.widevine \
     manifest_oplusSensor \
     manifest_oplus_fingerprint \
