@@ -1277,7 +1277,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/realme/sm8250-common/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/realme/sm8250-common/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
-    vendor/realme/sm8250-common/proprietary/vendor/etc/oplus_Widevine_licenses.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oplus_Widevine_licenses.pfm \
     vendor/realme/sm8250-common/proprietary/vendor/etc/ArmHDCP_QTI_Android.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/ArmHDCP_QTI_Android.cfg \
     vendor/realme/sm8250-common/proprietary/vendor/etc/OPlus_QC_LTM_Commercial_SM8250_2020_02_07.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/OPlus_QC_LTM_Commercial_SM8250_2020_02_07.pfm \
     vendor/realme/sm8250-common/proprietary/vendor/etc/Oppo_QC_LTM_Commercial_2020_01_03.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/Oppo_QC_LTM_Commercial_2020_01_03.pfm \
