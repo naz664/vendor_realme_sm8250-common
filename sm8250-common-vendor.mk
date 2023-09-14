@@ -940,6 +940,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/firmware/fastchg/21733/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21733/oplus_vooc_fw_rk826.bin \
     vendor/realme/sm8250-common/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
     vendor/realme/sm8250-common/proprietary/odm/firmware/fastchg/smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/smart_chg_config_table.txt \
+    vendor/realme/sm8250-common/proprietary/odm/framework/vendor.oplus.hardware.osense.client-V1.0-java.jar:$(TARGET_COPY_OUT_ODM)/framework/vendor.oplus.hardware.osense.client-V1.0-java.jar \
     vendor/realme/sm8250-common/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
     vendor/realme/sm8250-common/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
@@ -1023,6 +1024,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libAncSegBaseSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegBaseSdk.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libAncSegmentSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegmentSdk.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libBokehPre.so:$(TARGET_COPY_OUT_ODM)/lib64/libBokehPre.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libCNamaSDK_vendor.so:$(TARGET_COPY_OUT_ODM)/lib64/libCNamaSDK_vendor.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libCaptureBokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libCaptureBokeh.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib64/libDeVIS.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libEIS.so:$(TARGET_COPY_OUT_ODM)/lib64/libEIS.so \
@@ -1033,6 +1035,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libFaceWhiten.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceWhiten.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libFilterWrapper.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libHdrVideo.so:$(TARGET_COPY_OUT_ODM)/lib64/libHdrVideo.so \
+    vendor/realme/sm8250-common/proprietary/odm/lib64/libNamaWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libNamaWrapper.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libNightVideo.so:$(TARGET_COPY_OUT_ODM)/lib64/libNightVideo.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libOGLManager.so \
     vendor/realme/sm8250-common/proprietary/odm/lib64/libOPLUS_SCPortrait.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPLUS_SCPortrait.so \
@@ -1636,6 +1639,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib/libdpps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpps.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
@@ -1946,6 +1950,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeccfg.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
+    vendor/realme/sm8250-common/proprietary/vendor/lib64/libdpps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpps.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.qti.so \
     vendor/realme/sm8250-common/proprietary/vendor/lib64/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayqos.so \
